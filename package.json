@@ -9,7 +9,6 @@
       "lint": "eslint index.js 'plugins/**/*.js'"
     },
     "files": [
-      "plugins",
       "LICENSE",
       "README.md",
       "index.js"
