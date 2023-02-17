@@ -45,7 +45,7 @@ module.exports = {
      * https://prettier.io/docs/en/options.html#trailing-commas
      * Print trailing commas wherever possible in multi-line comma-separated syntactic structures. (A single-line array, for example, never gets trailing commas.)
      */
-    trailingComma: 'all',
+    trailingComma: 'es5',
 
     /**
      * https://prettier.io/docs/en/options.html#bracket-spacing
