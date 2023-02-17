@@ -1,5 +1,11 @@
 # @chialab/prettier-config
 
+## 1.0.3
+
+### Patch Changes
+
+- b483f77: Fix trailingComma rule
+
 ## 1.0.2
 
 ### Patch Changes
