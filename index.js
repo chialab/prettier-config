@@ -63,7 +63,7 @@ module.exports = {
      * https://prettier.io/docs/en/options.html#arrow-function-parentheses
      * Include parentheses around a sole arrow function parameter.
      */
-    arrowParens: true,
+    arrowParens: 'always',
 
     /**
      * https://prettier.io/docs/en/options.html#html-whitespace-sensitivity
