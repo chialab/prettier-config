@@ -86,7 +86,7 @@ module.exports = {
      * https://prettier.io/docs/en/options.html#embedded-language-formatting
      * Control whether Prettier formats quoted code embedded in the file.
      */
-    embeddedLanguageFormatting: 'off',
+    embeddedLanguageFormatting: 'auto',
 
     /**
      * https://prettier.io/docs/en/options.html#single-attribute-per-line
