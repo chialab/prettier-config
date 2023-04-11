@@ -1,5 +1,12 @@
 # @chialab/prettier-config
 
+## 1.1.0
+
+### Minor Changes
+
+- 7177898: Increase print width to 120.
+- 7177898: Change tab width for JSON and Yaml files.
+
 ## 1.0.3
 
 ### Patch Changes
