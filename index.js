@@ -3,7 +3,7 @@ module.exports = {
      * https://prettier.io/docs/en/options.html#print-width
      * Specify the line length that the printer will wrap on.
      */
-    // printWidth: 80,
+    printWidth: 120,
 
     /**
      * https://prettier.io/docs/en/options.html#tab-width
@@ -93,4 +93,19 @@ module.exports = {
      * Enforce single attribute per line in HTML, Vue and JSX.
      */
     singleAttributePerLine: true,
+
+    overrides: [
+        {
+            files: '*.yml',
+            options: {
+                tabWidth: 2,
+            },
+        },
+        {
+            files: '*.json',
+            options: {
+                tabWidth: 2,
+            },
+        },
+    ],
 };
