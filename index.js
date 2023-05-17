@@ -1,4 +1,6 @@
 module.exports = {
+    plugins: [require('@ianvs/prettier-plugin-sort-imports')],
+
     /**
      * https://prettier.io/docs/en/options.html#print-width
      * Specify the line length that the printer will wrap on.
@@ -93,6 +95,16 @@ module.exports = {
      * Enforce single attribute per line in HTML, Vue and JSX.
      */
     singleAttributePerLine: true,
+
+    /**
+     * https://github.com/IanVS/prettier-plugin-sort-imports#importorder
+     */
+    importOrder: ['<THIRD_PARTY_MODULES>', '^[./]'],
+
+    /**
+     * https://github.com/IanVS/prettier-plugin-sort-imports#importorderparserplugins
+     */
+    importOrderParserPlugins: ['typescript', 'jsx', 'decorators'],
 
     overrides: [
         {
