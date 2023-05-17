@@ -1,5 +1,11 @@
 # @chialab/prettier-config
 
+## 1.2.0
+
+### Minor Changes
+
+- c291c9f: Add sort imports plugins.
+
 ## 1.1.0
 
 ### Minor Changes
