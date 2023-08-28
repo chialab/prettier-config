@@ -1,5 +1,11 @@
 # @chialab/prettier-config
 
+## 1.2.2
+
+### Patch Changes
+
+- 053692c: Fix plugin import.
+
 ## 1.2.1
 
 ### Patch Changes

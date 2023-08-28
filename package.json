@@ -1,7 +1,7 @@
 {
   "name": "@chialab/prettier-config",
   "description": "Chialab's rules for Prettier.",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "license": "MIT",
   "author": "Chialab <dev@chialab.io> (https://www.chialab.it)",
   "main": "index.js",
