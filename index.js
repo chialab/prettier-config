@@ -1,5 +1,5 @@
 module.exports = {
-    plugins: [require('@ianvs/prettier-plugin-sort-imports')],
+    plugins: ['@ianvs/prettier-plugin-sort-imports'],
 
     /**
      * https://prettier.io/docs/en/options.html#print-width
