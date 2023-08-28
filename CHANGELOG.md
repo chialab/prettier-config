@@ -1,5 +1,11 @@
 # @chialab/prettier-config
 
+## 1.2.1
+
+### Patch Changes
+
+- f353277: Add prettier 3.x to peer dependencies.
+
 ## 1.2.0
 
 ### Minor Changes
