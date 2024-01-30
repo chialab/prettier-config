@@ -6,27 +6,36 @@ Chialab's rules for [Prettier](https://prettier.io/).
 
 Install Prettier:
 
-```sh
-$ npm i -D prettier
+```
+npm i -D prettier
+```
+
+```
+yarn add -D prettier
 ```
 
 Install `@chialab/prettier-config`:
 
-```sh
-$ npm i -D @chialab/prettier-config
+```
+npm i -D @chialab/prettier-config
 ```
 
-Create a `prettier.config.cjs` file and add the configuration:
+```
+yarn add -D @chialab/prettier-config
+```
 
-**prettier.config.cjs**
+Create a `prettier.config.js` file and add the configuration:
+
+**prettier.config.js**
+
 ```js
-module.exports = {
-    ...require('@chialab/prettier-config'),
-};
+import config from '@chialab/prettier-config';
+
+export default config;
 ```
 
 ## IDE
 
 Install the Prettier extension for your IDE (optional):
 
-* [VSCode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+-   [VSCode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
